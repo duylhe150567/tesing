@@ -9,5 +9,9 @@ public class Dog implements IEat {
 	public void PrintEat() {
 		// TODO Auto-generated method stub
 		System.out.println("Dog eats");
+		System.out.println("Dog eats");
+		System.out.println("Dog eats");
+		System.out.println("Dog eats");
+		
 	}
 }
