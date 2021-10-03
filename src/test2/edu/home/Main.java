@@ -584,6 +584,397 @@ public class Main {
 		String[] words = sen.split("[ ]+");
 		System.out.println("Penultimate word: "+words[words.length - 2]);
 		*/
+		
+		/*
+		//Bai 61 -basic part 1
+		Scanner in =new Scanner(System.in);
+		System.out.println("Input word:");
+		String word = in.nextLine();
+		word = word.trim();
+		String result = ""; 
+	    char[] ch=word.toCharArray();  
+	    for (int i = ch.length - 1; i >= 0; i--) {
+			result += ch[i];
+		}
+		System.out.println("Reverse word: "+result.trim()); 
+		*/
+		
+		/*
+		//Bai 63 -basic part 1
+		Scanner in =new Scanner(System.in);
+		System.out.println("number1= ");
+		int iNum1 =in.nextInt();
+		System.out.println("number2= :");
+		int iNum2 = in.nextInt();
+		int iRes = Integer.compare(iNum1, iNum2);
+		*/
+		
+		/*
+		//Bai 64 -basic part 1
+		Scanner in =new Scanner(System.in);
+		System.out.println("number1= ");
+		int iNum1 =in.nextInt();
+		System.out.println("number2= :");
+		int iNum2 = in.nextInt();
+		if( iNum1>=25 &&  iNum2<=75 ) {
+			int iDVi1 = iNum1 %10;
+			int iDVi2 = iNum2 %10;
+			iNum1 =iNum1/ 10;
+			iNum2 =iNum2/ 10;
+			if(iNum1 == iNum2||iNum1 == iDVi1 || iNum2 == iDVi1 || iNum2 == iDVi2)
+				System.out.println("true");
+		}
+		*/
+			
+		
+		/*
+		//Bai 66 -basic part 1
+		int count, sum = 0;  
+		for(int number = 1; number <= 200; number++) {  
+			count = 0;  
+		for (int i = 2; i <= number/2; i++){     
+			if(number % i == 0) {   
+				count++;  
+				break;  
+			} 
+		} 		
+		if(count == 0 && number != 1 ) {  
+			sum = sum + number;  
+		}    
+			System.out.println("The Sum of Prime Numbers from 1 to 200 is: " + sum);  
+		} 
+		*/
+		
+		/*
+		//Bai 67 -basic part 1
+		String sen = new String("Python 3.0");
+		String word = "Tutorial";
+		System.out.println(sen.substring(0,7) + word + sen.substring(6));
+		*/
+		
+		/*
+		//Bai 68 -basic part 1
+		String sen = new String("Leduy");
+		String last = sen.substring(sen.length()-3);
+		System.out.println(last + last + last + last);
+		*/
+		
+		/*
+		//Bai 69 - basic part 1
+		String sen = "leduy12345";
+		System.out.println(sen.substring(0,sen.length()/2));
+		*/
+		
+		/*
+		//Bai 70- basic part 1
+		Scanner in = new Scanner(System.in);
+		String str1 = in.nextLine();
+		String str2 = in.nextLine();
+		if(str1.length()>str2.length()) 
+			System.out.println(str2+str1+str2);
+		else
+			System.out.println(str1+str2+str1);
+		*/
+		
+		/*
+		//Bai 71 -basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.println("Input string:");
+		String str1 = in.nextLine();
+		String str2 = in.nextLine();
+		System.out.println(str1.substring(1)+str2.substring(1));
+		*/
+
+		/*
+		//Bai 72 - basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.println("Input string:");
+		String sen = in.nextLine();
+		if(sen.length()>3)
+			System.out.println(sen.substring(3));
+		else
+			System.out.println("#");
+		*/
+		
+		/*
+		//Bai 73 - basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.println("Input string:");
+		String str1 = in.nextLine();
+		String str2 = in.nextLine();
+		if(str1.length() >0 && str2.length()>0)
+			System.out.println(str1.substring(0,1) + str2.substring(str2.length()-1));
+		*/
+		
+		/*
+		//Bai 74 - basic part 1
+		 Scanner in = new Scanner(System.in);
+		int[] iArray = new int[100];
+		for(int i =0; i<5 ;i++) {
+			iArray[i] = in.nextInt();
+		}
+		if(iArray[0]==10 && iArray[4] ==10)
+			System.out.println("true");
+		 */
+		
+		/*
+		//Bai 75 -basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.print("N =");
+		int n = in.nextInt();
+		int[] iArray = new int[100];
+		for(int i =0 ; i <n; i++) {
+			iArray[i] = in.nextInt();
+		}
+		if(iArray[0]==iArray[iArray.length-1])
+			System.out.println("true");
+		*/
+		
+		/*
+		//Bai 76 -basic part 1
+		int[] iArray1 = {710, 23, 54434, 4543, 550};
+		int[] iArray2 = {120, 56, 434, 44, 560};
+//		if( iArray1[0] == iArray2[0] || iArray1[iArray1.length-1] == iArray2[iArray2.length-1])
+//			System.out.println("true");
+		 if(iArray1.length>=2 && iArray2.length>=2){
+			  System.out.println(iArray1[0] == iArray2[0] || iArray1[iArray1.length-1] == iArray2[iArray2.length-1]);
+		  }
+		  else{
+		   System.out.println("Array lengths less than 2.");
+		  }
+		  */
+		
+		/*
+		//Bai 77 -basic part 1
+		int[] iArray1 = {50, 20 ,0};
+		int[] iArray2 = {5, 50, 10};
+		System.out.println("New= " + iArray1[0] +" "+ iArray2[2]);
+		*/
+		
+		/*
+		//Bai 78 - basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.print("N =");
+		int n = in.nextInt();
+		int[] iArray = new int[100];
+		int i;
+		for( i =0 ; i <n; i++) {
+			iArray[i] = in.nextInt();
+			if(iArray[i]==4 || iArray[i] ==7);
+		}
+		*/
+		
+		/*
+		//Bai 79- basic part 1
+		Integer [] arr = {2,4,5,3,5,2,7,8,9};
+		reverse(arr);
+//		static void reverse(Integer array[]) {
+//		Collections.reverse(Arrays.asList(array));
+//		System.out.println(Arrays.asList(array));
+//		
+//		}
+ 
+		 */
+		
+		/*
+		//Bai 80 - basic part 1
+		System.out.println("Max = " + largest());
+		 public static int largest() {
+//				int[] array = {12,344,54,65,87};
+//				int max =0; 
+//				for(int i =0; i< array.length ; i++) {
+//					if(array[i]>max)
+//						max = array[i];
+//				}
+//				 return max;
+//			}
+		 */
+
+		/*
+		//Bai 81 -basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.println("N = ");
+		int n  = in.nextInt();
+		int[] iArray = new int[100];
+		for( int i=0;i<n;i++) {
+				iArray[i] = in.nextInt();
+		}
+		int iSwap = iArray[0];
+		iArray[0]= iArray[n-1];
+		iArray[n-1]= iSwap;
+		System.out.println(Arrays.toString(iArray));
+		*/
+		
+		/*
+		//Bai 83 -basic part 1
+		int[] iArray1 =  {1,3,-5,4};
+		int[] iArray2 =  {1,4,-5,-2};
+		String result = new String("");
+		for(int i= 0; i<iArray1.length;i++) {
+			int iNum1 = iArray1[i];
+			int iNum2 = iArray2[i];
+			result += Integer.toString(iNum1*iNum2)+" " ;
+		}
+		System.out.println(result);
+		*/
+		
+		/*
+		//Bai 84- basic part 1
+		String sen = "Leduydep";
+		System.out.println( sen.substring(sen.length()-3) +sen + sen.substring(sen.length()-3));
+		*/
+		
+		/*
+		//bai 85 - basic part 1
+		String sen = new String("How are you?");
+		System.out.println(	sen.startsWith("duy"));
+		*/
+		
+		/*
+		//bai 86 - basic part 1
+		Scanner in = new Scanner(System.in);
+		int iNum = in.nextInt();
+		for(int i = iNum; i>=1; i--) {
+			if(i % 2 ==0) {
+				 iNum /=2;
+				i = iNum;
+			}
+			if(i % 2 !=0) {
+				 iNum = iNum*3 +1;
+				 i =iNum;
+			}
+		}
+		System.out.println(iNum);
+		in.close();
+		 */
+		
+		/*
+		//Bai 88_91- basic part 1
+		System.out.println("\nCurrent system environment:");
+        System.out.println(System.getenv());	 
+        System.out.println("\n\nCurrent system properties:");
+        System.out.println(System.getProperties());
+		*/
+		
+		/*
+		//Bai 92- basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.println("N= ");
+		int n = in.nextInt();
+		int[] iArr = new int[100];
+		int iEven =0, iOdd = 0;
+		for(int i=0; i<n; i++) {
+			iArr[i] = in.nextInt(); 
+			if( iArr[i] %2 ==0)
+				iEven++;
+			if( iArr[i] %2 !=0)
+				iOdd++;
+		}
+		System.out.println("Even:"+ iEven+ " and Odd:" +iOdd);
+		*/
+		
+		/*
+		//Bai 94 -basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.print("N= ");
+		int n = in.nextInt();
+		int[] iArr = new int[100];
+		for(int i =0; i<n; i++) {
+			iArr[i] = in.nextInt();
+		}
+		int e=0 ; //e is even count
+		while(e<iArr.length && iArr[e]%2==0) //check and count total even number
+			e++;
+		for(int o = e +1; o< iArr.length; o++){
+			if(iArr[o]%2 !=0) {
+				int swap = iArr[e];
+				iArr[e] = iArr[o];
+				iArr[o] = swap;
+				e++;
+			}	
+		}
+		System.out.println(Arrays.toString(iArr));
+		*/
+		
+		/*
+		//Bai 95- basic part 1
+		Scanner in = new Scanner(System.in);
+		System.out.print("N= ");
+		int n = in.nextInt();
+		String[] iArr = new String[n]; 
+		for(int i =0; i<n; i++) {
+		iArr[i] = String.valueOf(i);                                  
+		}
+		System.out.println("New Array: "+Arrays.toString(iArr)); 
+		*/
+
+		/*
+		//Bai 96, 97 -basic part 1
+		 int[] array_nums = {20, 10, 80, 50, 13, 50};
+	      boolean test = false;
+		  int result=0;
+		  int x = 10;
+		  int y = 20;
+	    
+	    for(int i = 0; i < array_nums.length; i++) {
+	        if(array_nums[i] == x)
+	            test = true;
+	                    
+	        if(test && array_nums[i] == y)
+			{
+	         System.out.printf( String.valueOf(true));	
+	         result = 1;
+			}
+	    }
+	     if (result==0)                             
+		   {	 
+	         System.out.printf( String.valueOf(false));
+		    }
+			System.out.printf("\n");
+	    */
+		
+		/*
+		//Bai 98 - basic part 1
+		int [] iArr = {20, 84, 73, 20, 40,58, 33, 20};
+		int iCount =0 , iCheck = 0;
+		if(iArr.length >=1 && iArr[0] == 20)
+			iCount++;
+		for(int i =1 ; i < iArr.length; i++) {
+			if(iArr[i] ==20 && iArr[i-1] ==20) {
+				System.out.println(String.valueOf(false));
+				iCheck += 1;
+			}
+			if(iArr[i] == 20)
+				iCount++;
+		}
+		if(iCheck ==0)
+			System.out.println(String.valueOf(iCount == 3));
+		*/
+		
+		/*
+		//Bai 99 - basic part 1
+		int[] iArr = {20, 43, 20, 43, 20, 54};
+		int iCount = 0, iCheck =0;
+		for(int i =0; i <  iArr.length -1; i++) {
+			if(iArr[i] != 20 && iArr[i+1] !=20 ) //ko dat iArr =20 vi co the ton tai it nhat 1 cap duy nhat
+				iCount +=1;
+		}
+		if(iCount ==0)
+			System.out.println(String.valueOf(true));
+		*/
+		
+		/*
+		//Bai 100 - basic part 1
+		int[] iArr1 = {10, 11, 10, 20, 43, 20, 50};
+		int[] iArr2 = {10, 13, 11, 20, 44, 30, 50};
+		int iCount =0;
+		for(int i = 0; i < iArr1.length; i++ ) {
+			if(Math.abs(iArr1[i] - iArr2[i]) <=1 && iArr1[i] != iArr2[i])
+				iCount++;
+		}
+		System.out.println(iCount);
+		*/
+		
 	}
 }
 
